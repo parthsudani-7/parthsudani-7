@@ -39,15 +39,18 @@ status: 🟢 Open to collaborations & contributing to open source
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=parthsudani-7&show_icons=true&theme=tokyonight&hide_border=false&border_radius=10&include_all_commits=true&count_private=true&title_color=38bdf8&text_color=94a3b8&icon_color=a855f7&bg_color=0d1117" alt="Parth's GitHub Stats" width="100%" />
+        <!-- Active Live Mirror with Verified 200 OK Status -->
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=parthsudani-7&show_icons=true&theme=tokyonight&hide_border=false&border_radius=10&include_all_commits=true&count_private=true&title_color=38bdf8&text_color=94a3b8&icon_color=a855f7&bg_color=0d1117" alt="Parth's GitHub Stats" width="100%" />
       </td>
       <td align="center" width="50%">
+        <!-- Working Demolab Streak Stats -->
         <img src="https://streak-stats.demolab.com/?user=parthsudani-7&theme=tokyonight&hide_border=false&border_radius=10&stroke=38bdf8&ring=a855f7&fire=38bdf8&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0d1117" alt="Parth's Streak Stats" width="100%" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parthsudani-7&layout=compact&theme=tokyonight&hide_border=false&border_radius=10&title_color=38bdf8&text_color=94a3b8&bg_color=0d1117" alt="Top Languages" width="60%" />
+        <!-- Active Live Mirror for Top Languages -->
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=parthsudani-7&layout=compact&theme=tokyonight&hide_border=false&border_radius=10&title_color=38bdf8&text_color=94a3b8&bg_color=0d1117" alt="Top Languages" width="60%" />
       </td>
     </tr>
   </table>
