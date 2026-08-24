@@ -10,15 +10,15 @@
     }
     @keyframes fillEasy {
       from { width: 0; }
-      to { width: 184.4px; }
+      to { width: 183.7px; }
     }
     @keyframes fillMed {
       from { width: 0; }
-      to { width: 117.0px; }
+      to { width: 117.8px; }
     }
     @keyframes fillHard {
       from { width: 0; }
-      to { width: 18.6px; }
+      to { width: 18.5px; }
     }
     .glow-title {
       font-family: 'Segoe UI', Roboto, Ubuntu, sans-serif;
@@ -146,7 +146,7 @@
     <circle cx="110" cy="170" r="75" fill="url(#circle-glow)"/>
     <circle cx="110" cy="170" r="68" fill="#131A26" stroke="#1E293B" stroke-width="2"/>
     <circle cx="110" cy="170" r="68" fill="none" stroke="#38BDF8" stroke-width="3" stroke-dasharray="380" stroke-dashoffset="60" stroke-linecap="round"/>
-    <text x="110" y="165" class="total-num" text-anchor="middle">774</text>
+    <text x="110" y="165" class="total-num" text-anchor="middle">777</text>
     <text x="110" y="190" class="total-sub" text-anchor="middle">TOTAL SOLVED</text>
   </g>
 
@@ -157,15 +157,15 @@
       <text x="0" y="15" class="stat-label">Easy Solved</text>
       <text x="320" y="15" class="stat-val" fill="#34D399" text-anchor="end">446</text>
       <rect x="0" y="24" width="320" height="10" class="bar-bg"/>
-      <rect x="0" y="24" width="184.4" height="10" class="bar-easy"/>
+      <rect x="0" y="24" width="183.7" height="10" class="bar-easy"/>
     </g>
 
     <!-- Medium -->
     <g transform="translate(0, 52)">
       <text x="0" y="15" class="stat-label">Medium Solved</text>
-      <text x="320" y="15" class="stat-val" fill="#FBBF24" text-anchor="end">283</text>
+      <text x="320" y="15" class="stat-val" fill="#FBBF24" text-anchor="end">286</text>
       <rect x="0" y="24" width="320" height="10" class="bar-bg"/>
-      <rect x="0" y="24" width="117.0" height="10" class="bar-med"/>
+      <rect x="0" y="24" width="117.8" height="10" class="bar-med"/>
     </g>
 
     <!-- Hard -->
@@ -173,7 +173,7 @@
       <text x="0" y="15" class="stat-label">Hard Solved</text>
       <text x="320" y="15" class="stat-val" fill="#F87171" text-anchor="end">45</text>
       <rect x="0" y="24" width="320" height="10" class="bar-bg"/>
-      <rect x="0" y="24" width="18.6" height="10" class="bar-hard"/>
+      <rect x="0" y="24" width="18.5" height="10" class="bar-hard"/>
     </g>
   </g>
 
@@ -184,7 +184,7 @@
       <rect width="144" height="52" class="platform-card"/>
       <circle cx="18" cy="26" r="6" fill="#FFA116"/>
       <text x="32" y="23" class="platform-name">LeetCode</text>
-      <text x="32" y="42" class="platform-num">263 Solved</text>
+      <text x="32" y="42" class="platform-num">266 Solved</text>
     </g>
 
     <!-- GeeksforGeeks -->
