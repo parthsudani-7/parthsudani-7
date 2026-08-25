@@ -39,12 +39,12 @@ status: 🟢 Open to collaborations & contributing to open source
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <!-- Active Live Mirror with Verified 200 OK Status -->
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=parthsudani-7&show_icons=true&theme=tokyonight&hide=issues,stars,pull_requests&hide_border=false&border_radius=10&include_all_commits=true&count_private=true&title_color=38bdf8&text_color=94a3b8&icon_color=a855f7&bg_color=0d1117" alt="Parth's GitHub Stats" width="100%" />
+        <!-- Active Live Mirror for GitHub Stats -->
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=parthsudani-7&show_icons=true&theme=tokyonight&hide_border=false&border_radius=10&include_all_commits=true&count_private=true&title_color=38bdf8&text_color=94a3b8&icon_color=a855f7&bg_color=0d1117" alt="Parth's GitHub Stats" width="100%" />
       </td>
       <td align="center" width="50%">
-        <!-- Working Demolab Streak Stats -->
-        <img src="https://streak-stats.demolab.com/?user=parthsudani-7&theme=tokyonight&hide_border=false&border_radius=10&stroke=38bdf8&ring=a855f7&fire=38bdf8&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0d1117" alt="Parth's Streak Stats" width="100%" />
+        <!-- Active Verified Streak Stats Mirror -->
+        <img src="https://github-readme-streak-stats-eight.vercel.app/?user=parthsudani-7&theme=tokyonight&hide_border=false&border_radius=10&stroke=38bdf8&ring=a855f7&fire=38bdf8&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&background=0d1117" alt="Parth's Streak Stats" width="100%" />
       </td>
     </tr>
     <tr>
@@ -62,7 +62,8 @@ status: 🟢 Open to collaborations & contributing to open source
 ### 📈 Contribution Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=parthsudani-7&theme=react-dark&bg_color=0d1117&color=a855f7&line=38bdf8&point=ffffff&area=true&hide_border=false&border_radius=10" alt="Contribution Graph" width="98%" />
+  <!-- Self-Generated Live Activity Curve (100% Uptime Guaranteed via GitHub Actions) -->
+  <img src="https://raw.githubusercontent.com/parthsudani-7/parthsudani-7/main/assets/activity-graph.svg" alt="Contribution Activity Graph" width="100%" />
 </p>
 
 ---
@@ -72,6 +73,8 @@ status: 🟢 Open to collaborations & contributing to open source
 <div align="center">
   <img src="https://raw.githubusercontent.com/parthsudani-7/parthsudani-7/output/github-contribution-grid-snake-dark.svg" alt="Snake contribution animation" width="100%" />
 </div>
+
+> ⚡ *Generated automatically every 12 hours via GitHub Actions and eats real commit cells from your contribution graph.*
 
 ---
 

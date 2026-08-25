@@ -1,0 +1,99 @@
+<svg width="820" height="280" viewBox="0 0 820 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes drawLine {
+      from { stroke-dashoffset: 2000; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .card-title {
+      font-family: 'Segoe UI', Roboto, Ubuntu, sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      fill: #F8FAFC;
+    }
+    .card-subtitle {
+      font-family: 'Segoe UI', Roboto, Ubuntu, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #38BDF8;
+    }
+    .axis-text {
+      font-family: 'Segoe UI', Roboto, Ubuntu, sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      fill: #64748B;
+    }
+    .chart-line {
+      stroke-dasharray: 2000;
+      animation: drawLine 2s ease-out forwards;
+    }
+    .chart-area {
+      animation: fadeIn 1.5s ease-out forwards;
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="graph-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F17" />
+      <stop offset="50%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="area-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#00F2FE" />
+    </linearGradient>
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="816" height="276" rx="12" fill="url(#graph-bg)" stroke="url(#border-glow)" stroke-width="1.5"/>
+
+  <g transform="translate(30, 36)">
+    <circle cx="6" cy="0" r="4" fill="#38BDF8"/>
+    <circle cx="6" cy="0" r="8" fill="#38BDF8" fill-opacity="0.2"/>
+    <text x="20" y="5" class="card-title">📈 Contribution Activity Curve</text>
+    <text x="760" y="5" class="card-subtitle" text-anchor="end">92 Contributions in Last 31 Days</text>
+  </g>
+
+  <line x1="55" y1="235.0" x2="785" y2="235.0" stroke="#1E293B" stroke-dasharray="3 3"/>
+<text x="43" y="239.0" class="axis-text" text-anchor="end">0</text>
+<line x1="55" y1="176.7" x2="785" y2="176.7" stroke="#1E293B" stroke-dasharray="3 3"/>
+<text x="43" y="180.7" class="axis-text" text-anchor="end">12</text>
+<line x1="55" y1="123.3" x2="785" y2="123.3" stroke="#1E293B" stroke-dasharray="3 3"/>
+<text x="43" y="127.3" class="axis-text" text-anchor="end">23</text>
+<line x1="55" y1="65.0" x2="785" y2="65.0" stroke="#1E293B" stroke-dasharray="3 3"/>
+<text x="43" y="69.0" class="axis-text" text-anchor="end">35</text>
+
+  <path d="M 55.0,235.0 C 59.1,235.0 71.2,235.0 79.3,235.0 C 87.4,235.0 95.6,235.0 103.7,235.0 C 111.8,235.0 119.9,235.0 128.0,235.0 C 136.1,235.0 144.2,235.0 152.3,235.0 C 160.4,235.0 168.6,235.0 176.7,235.0 C 184.8,235.0 192.9,235.0 201.0,235.0 C 209.1,235.0 217.2,235.0 225.3,235.0 C 233.4,235.0 241.6,235.0 249.7,235.0 C 257.8,235.0 265.9,235.0 274.0,235.0 C 282.1,235.0 290.2,235.0 298.3,235.0 C 306.4,235.0 314.6,235.0 322.7,235.0 C 330.8,235.0 338.9,235.0 347.0,235.0 C 355.1,235.0 363.2,236.6 371.3,235.0 C 379.4,233.4 387.6,225.3 395.7,225.3 C 403.8,225.3 411.9,233.4 420.0,235.0 C 428.1,236.6 436.2,235.0 444.3,235.0 C 452.4,235.0 460.6,235.0 468.7,235.0 C 476.8,235.0 484.9,235.0 493.0,235.0 C 501.1,235.0 509.2,235.0 517.3,235.0 C 525.4,235.0 533.6,235.0 541.7,235.0 C 549.8,235.0 557.9,235.0 566.0,235.0 C 574.1,235.0 582.2,235.0 590.3,235.0 C 598.4,235.0 606.6,240.7 614.7,235.0 C 622.8,229.3 630.9,209.9 639.0,201.0 C 647.1,192.1 655.2,177.5 663.3,181.6 C 671.4,185.6 679.6,222.9 687.7,225.3 C 695.8,227.7 703.9,215.6 712.0,196.1 C 720.1,176.7 728.2,130.6 736.3,108.7 C 744.4,86.9 752.6,44.8 760.7,65.0 C 768.8,85.2 780.9,202.6 785.0,230.1 L 785.0,235.0 L 55.0,235.0 Z" fill="url(#area-grad)" class="chart-area" />
+  <path d="M 55.0,235.0 C 59.1,235.0 71.2,235.0 79.3,235.0 C 87.4,235.0 95.6,235.0 103.7,235.0 C 111.8,235.0 119.9,235.0 128.0,235.0 C 136.1,235.0 144.2,235.0 152.3,235.0 C 160.4,235.0 168.6,235.0 176.7,235.0 C 184.8,235.0 192.9,235.0 201.0,235.0 C 209.1,235.0 217.2,235.0 225.3,235.0 C 233.4,235.0 241.6,235.0 249.7,235.0 C 257.8,235.0 265.9,235.0 274.0,235.0 C 282.1,235.0 290.2,235.0 298.3,235.0 C 306.4,235.0 314.6,235.0 322.7,235.0 C 330.8,235.0 338.9,235.0 347.0,235.0 C 355.1,235.0 363.2,236.6 371.3,235.0 C 379.4,233.4 387.6,225.3 395.7,225.3 C 403.8,225.3 411.9,233.4 420.0,235.0 C 428.1,236.6 436.2,235.0 444.3,235.0 C 452.4,235.0 460.6,235.0 468.7,235.0 C 476.8,235.0 484.9,235.0 493.0,235.0 C 501.1,235.0 509.2,235.0 517.3,235.0 C 525.4,235.0 533.6,235.0 541.7,235.0 C 549.8,235.0 557.9,235.0 566.0,235.0 C 574.1,235.0 582.2,235.0 590.3,235.0 C 598.4,235.0 606.6,240.7 614.7,235.0 C 622.8,229.3 630.9,209.9 639.0,201.0 C 647.1,192.1 655.2,177.5 663.3,181.6 C 671.4,185.6 679.6,222.9 687.7,225.3 C 695.8,227.7 703.9,215.6 712.0,196.1 C 720.1,176.7 728.2,130.6 736.3,108.7 C 744.4,86.9 752.6,44.8 760.7,65.0 C 768.8,85.2 780.9,202.6 785.0,230.1" fill="none" stroke="url(#line-grad)" stroke-width="3" stroke-linecap="round" class="chart-line" />
+  <circle cx="395.7" cy="225.3" r="4.5" fill="#38BDF8" stroke="#0D1117" stroke-width="2"/>
+<circle cx="639.0" cy="201.0" r="4.5" fill="#38BDF8" stroke="#0D1117" stroke-width="2"/>
+<circle cx="663.3" cy="181.6" r="4.5" fill="#38BDF8" stroke="#0D1117" stroke-width="2"/>
+<circle cx="687.7" cy="225.3" r="4.5" fill="#38BDF8" stroke="#0D1117" stroke-width="2"/>
+<circle cx="712.0" cy="196.1" r="4.5" fill="#38BDF8" stroke="#0D1117" stroke-width="2"/>
+<circle cx="736.3" cy="108.7" r="4.5" fill="#38BDF8" stroke="#0D1117" stroke-width="2"/>
+<circle cx="736.3" cy="108.7" r="7.5" fill="#38BDF8" fill-opacity="0.25"/>
+<circle cx="760.7" cy="65.0" r="4.5" fill="#38BDF8" stroke="#0D1117" stroke-width="2"/>
+<circle cx="760.7" cy="65.0" r="7.5" fill="#38BDF8" fill-opacity="0.25"/>
+<circle cx="785.0" cy="230.1" r="4.5" fill="#38BDF8" stroke="#0D1117" stroke-width="2"/>
+
+  <text x="55.0" y="265" class="axis-text" text-anchor="middle">Jul 26</text>
+<text x="201.0" y="265" class="axis-text" text-anchor="middle">Aug 01</text>
+<text x="347.0" y="265" class="axis-text" text-anchor="middle">Aug 07</text>
+<text x="493.0" y="265" class="axis-text" text-anchor="middle">Aug 13</text>
+<text x="639.0" y="265" class="axis-text" text-anchor="middle">Aug 19</text>
+<text x="785.0" y="265" class="axis-text" text-anchor="middle">Aug 25</text>
+
+</svg>

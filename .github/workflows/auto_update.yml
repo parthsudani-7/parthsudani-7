@@ -23,16 +23,16 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Generate Unified Competitive Programming Stats Card
+      - name: Generate Unified Stats and Contribution Graph SVGs
         run: |
           python scripts/generate_stats.py
 
-      - name: Commit updated competitive stats SVG
+      - name: Commit updated SVG cards
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/competitive-stats.svg
-          git commit -m "chore(auto): update competitive programming live stats" || echo "No changes to commit"
+          git add assets/competitive-stats.svg assets/activity-graph.svg
+          git commit -m "chore(auto): update competitive programming and activity graph SVGs" || echo "No changes to commit"
           git push origin main || echo "Push failed or already up-to-date"
 
       - name: Generate GitHub contribution grid snake SVG

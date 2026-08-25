@@ -4,17 +4,13 @@
       0%, 100% { transform: scale(1); opacity: 0.9; }
       50% { transform: scale(1.03); opacity: 1; }
     }
-    @keyframes shimmer {
-      0% { transform: translateX(-100%); }
-      100% { transform: translateX(200%); }
-    }
     @keyframes fillEasy {
       from { width: 0; }
-      to { width: 183.7px; }
+      to { width: 183.4px; }
     }
     @keyframes fillMed {
       from { width: 0; }
-      to { width: 117.8px; }
+      to { width: 118.0px; }
     }
     @keyframes fillHard {
       from { width: 0; }
@@ -89,27 +85,22 @@
       animation: fillHard 1.5s ease-out forwards;
     }
     .circle-pulse {
-      transform-origin: 105px 165px;
+      transform-origin: 110px 170px;
       animation: pulse 3s infinite ease-in-out;
     }
   </style>
 
   <defs>
-    <!-- Background Gradient -->
     <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0B0F17" />
       <stop offset="50%" stop-color="#0D1117" />
       <stop offset="100%" stop-color="#111827" />
     </linearGradient>
-
-    <!-- Border Glow -->
     <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
       <stop offset="50%" stop-color="#818CF8" stop-opacity="0.3" />
       <stop offset="100%" stop-color="#A855F7" stop-opacity="0.8" />
     </linearGradient>
-
-    <!-- Stat Bar Gradients -->
     <linearGradient id="grad-easy" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#10B981" />
       <stop offset="100%" stop-color="#34D399" />
@@ -122,18 +113,14 @@
       <stop offset="0%" stop-color="#EF4444" />
       <stop offset="100%" stop-color="#F87171" />
     </linearGradient>
-
-    <!-- Total Circle Glow -->
     <radialGradient id="circle-glow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25" />
       <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
     </radialGradient>
   </defs>
 
-  <!-- Outer Card Frame -->
   <rect x="2" y="2" width="676" height="336" rx="16" fill="url(#card-bg)" stroke="url(#border-glow)" stroke-width="1.8"/>
 
-  <!-- Card Header -->
   <g transform="translate(32, 40)">
     <circle cx="10" cy="0" r="6" fill="#38BDF8"/>
     <circle cx="10" cy="0" r="10" fill="#38BDF8" fill-opacity="0.2"/>
@@ -141,34 +128,27 @@
     <text x="590" y="5" class="stat-label" text-anchor="end">Live Analytics</text>
   </g>
 
-  <!-- Left: Circular Total Solved Badge -->
   <g class="circle-pulse">
     <circle cx="110" cy="170" r="75" fill="url(#circle-glow)"/>
     <circle cx="110" cy="170" r="68" fill="#131A26" stroke="#1E293B" stroke-width="2"/>
     <circle cx="110" cy="170" r="68" fill="none" stroke="#38BDF8" stroke-width="3" stroke-dasharray="380" stroke-dashoffset="60" stroke-linecap="round"/>
-    <text x="110" y="165" class="total-num" text-anchor="middle">777</text>
+    <text x="110" y="165" class="total-num" text-anchor="middle">778</text>
     <text x="110" y="190" class="total-sub" text-anchor="middle">TOTAL SOLVED</text>
   </g>
 
-  <!-- Middle: Difficulty Breakdown Progress Bars -->
   <g transform="translate(225, 95)">
-    <!-- Easy -->
     <g transform="translate(0, 0)">
       <text x="0" y="15" class="stat-label">Easy Solved</text>
       <text x="320" y="15" class="stat-val" fill="#34D399" text-anchor="end">446</text>
       <rect x="0" y="24" width="320" height="10" class="bar-bg"/>
-      <rect x="0" y="24" width="183.7" height="10" class="bar-easy"/>
+      <rect x="0" y="24" width="183.4" height="10" class="bar-easy"/>
     </g>
-
-    <!-- Medium -->
     <g transform="translate(0, 52)">
       <text x="0" y="15" class="stat-label">Medium Solved</text>
-      <text x="320" y="15" class="stat-val" fill="#FBBF24" text-anchor="end">286</text>
+      <text x="320" y="15" class="stat-val" fill="#FBBF24" text-anchor="end">287</text>
       <rect x="0" y="24" width="320" height="10" class="bar-bg"/>
-      <rect x="0" y="24" width="117.8" height="10" class="bar-med"/>
+      <rect x="0" y="24" width="118.0" height="10" class="bar-med"/>
     </g>
-
-    <!-- Hard -->
     <g transform="translate(0, 104)">
       <text x="0" y="15" class="stat-label">Hard Solved</text>
       <text x="320" y="15" class="stat-val" fill="#F87171" text-anchor="end">45</text>
@@ -177,33 +157,25 @@
     </g>
   </g>
 
-  <!-- Bottom: 4 Platforms Breakdown Cards -->
   <g transform="translate(32, 255)">
-    <!-- LeetCode -->
     <g transform="translate(0, 0)">
       <rect width="144" height="52" class="platform-card"/>
       <circle cx="18" cy="26" r="6" fill="#FFA116"/>
       <text x="32" y="23" class="platform-name">LeetCode</text>
-      <text x="32" y="42" class="platform-num">266 Solved</text>
+      <text x="32" y="42" class="platform-num">267 Solved</text>
     </g>
-
-    <!-- GeeksforGeeks -->
     <g transform="translate(157, 0)">
       <rect width="144" height="52" class="platform-card"/>
       <circle cx="18" cy="26" r="6" fill="#2F8D46"/>
       <text x="32" y="23" class="platform-name">GeeksforGeeks</text>
       <text x="32" y="42" class="platform-num">226 Solved</text>
     </g>
-
-    <!-- CodeChef -->
     <g transform="translate(314, 0)">
       <rect width="144" height="52" class="platform-card"/>
       <circle cx="18" cy="26" r="6" fill="#A0522D"/>
       <text x="32" y="23" class="platform-name">CodeChef</text>
       <text x="32" y="42" class="platform-num">171 Solved</text>
     </g>
-
-    <!-- Codeforces -->
     <g transform="translate(471, 0)">
       <rect width="144" height="52" class="platform-card"/>
       <circle cx="18" cy="26" r="6" fill="#1F8ACB"/>
