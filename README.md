@@ -39,8 +39,8 @@ status: 🟢 Open to collaborations & contributing to open source
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <!-- Active Live Mirror for GitHub Stats -->
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=parthsudani-7&show_icons=true&theme=tokyonight&hide_border=false&border_radius=10&include_all_commits=true&count_private=true&title_color=38bdf8&text_color=94a3b8&icon_color=a855f7&bg_color=0d1117" alt="Parth's GitHub Stats" width="100%" />
+        <!-- Active Live Mirror with Stars & PRs Hidden -->
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=parthsudani-7&show_icons=true&theme=tokyonight&hide=stars,prs&hide_border=false&border_radius=10&include_all_commits=true&count_private=true&title_color=38bdf8&text_color=94a3b8&icon_color=a855f7&bg_color=0d1117" alt="Parth's GitHub Stats" width="100%" />
       </td>
       <td align="center" width="50%">
         <!-- Active Verified Streak Stats Mirror -->
@@ -117,9 +117,10 @@ status: 🟢 Open to collaborations & contributing to open source
 
 | Project | Description | Tech Stack | Links |
 | :--- | :--- | :--- | :---: |
-| 🧩 **Mario-Match-Game** | Interactive card matching memory game inspired by classic Super Mario retro graphics with audio and score tracking. | `JavaScript` `HTML5` `CSS3` | [🌐 Live Demo](https://mario-match-game-five.vercel.app/) • [💻 GitHub](https://github.com/parthsudani-7/Mario-Match-Game) |
-| 🌐 **Modern Portfolio** | Clean, responsive personal developer portfolio website showcasing live work, interactive widgets, and contact gateway. | `React` `Tailwind CSS` `Vercel` | [🌐 Live Demo](https://portfolio-one-sandy-w4brcvaknm.vercel.app/) • [💻 GitHub](https://github.com/parthsudani-7/Portfolio) |
-| 📚 **DSA Repository** | Curated solutions to algorithmic challenges across LeetCode, GFG, Codeforces & CodeChef with time/space complexity notes. | `Java` `C++` `Algorithms` | [💻 GitHub](https://github.com/parthsudani-7/DSA) |
+| 🧠 **Prodexa-AI** | Autonomous work operating layer embedding multi-model AI routing directly into transactional application state for context-aware collaboration, continuous code auditing, and deterministic human-in-the-loop task execution. | `Next.js` `TypeScript`<br/>`AI/LLM` `Tailwind` | [🌐 Live Demo](https://prodexa-ai-client.vercel.app/)<br/>• [💻 GitHub](https://github.com/parthsudani-7/Prodexa-AI) |
+| 🧩 **Mario-Match-Game** | Interactive card matching memory game inspired by classic Super Mario retro graphics with audio and score tracking. | `JavaScript`<br/>`HTML5` `CSS3` | [🌐 Live Demo](https://mario-match-game-five.vercel.app/)<br/>• [💻 GitHub](https://github.com/parthsudani-7/Mario-Match-Game) |
+| 🌐 **Modern Portfolio** | Clean, responsive personal developer portfolio website showcasing live work, interactive widgets, and contact gateway. | `React` `Tailwind`<br/>`CSS` `Vercel` | [🌐 Live Demo](https://portfolio-one-sandy-w4brcvaknm.vercel.app/)<br/>• [💻 GitHub](https://github.com/parthsudani-7/Portfolio) |
+| 📚 **DSA Repository** | Curated solutions to algorithmic challenges across LeetCode, GFG, Codeforces & CodeChef with time/space complexity notes. | `Java` `C++`<br/>`Algorithms` | [💻 GitHub](https://github.com/parthsudani-7/DSA) |
 
 </div>
 
