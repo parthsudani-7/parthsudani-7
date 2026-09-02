@@ -6,15 +6,15 @@
     }
     @keyframes fillEasy {
       from { width: 0; }
-      to { width: 182.7px; }
+      to { width: 182.9px; }
     }
     @keyframes fillMed {
       from { width: 0; }
-      to { width: 119.0px; }
+      to { width: 118.9px; }
     }
     @keyframes fillHard {
       from { width: 0; }
-      to { width: 18.3px; }
+      to { width: 18.2px; }
     }
     .glow-title {
       font-family: 'Segoe UI', Roboto, Ubuntu, sans-serif;
@@ -132,28 +132,28 @@
     <circle cx="110" cy="170" r="75" fill="url(#circle-glow)"/>
     <circle cx="110" cy="170" r="68" fill="#131A26" stroke="#1E293B" stroke-width="2"/>
     <circle cx="110" cy="170" r="68" fill="none" stroke="#38BDF8" stroke-width="3" stroke-dasharray="380" stroke-dashoffset="60" stroke-linecap="round"/>
-    <text x="110" y="165" class="total-num" text-anchor="middle">788</text>
+    <text x="110" y="165" class="total-num" text-anchor="middle">791</text>
     <text x="110" y="190" class="total-sub" text-anchor="middle">TOTAL SOLVED</text>
   </g>
 
   <g transform="translate(225, 95)">
     <g transform="translate(0, 0)">
       <text x="0" y="15" class="stat-label">Easy Solved</text>
-      <text x="320" y="15" class="stat-val" fill="#34D399" text-anchor="end">450</text>
+      <text x="320" y="15" class="stat-val" fill="#34D399" text-anchor="end">452</text>
       <rect x="0" y="24" width="320" height="10" class="bar-bg"/>
-      <rect x="0" y="24" width="182.7" height="10" class="bar-easy"/>
+      <rect x="0" y="24" width="182.9" height="10" class="bar-easy"/>
     </g>
     <g transform="translate(0, 52)">
       <text x="0" y="15" class="stat-label">Medium Solved</text>
-      <text x="320" y="15" class="stat-val" fill="#FBBF24" text-anchor="end">293</text>
+      <text x="320" y="15" class="stat-val" fill="#FBBF24" text-anchor="end">294</text>
       <rect x="0" y="24" width="320" height="10" class="bar-bg"/>
-      <rect x="0" y="24" width="119.0" height="10" class="bar-med"/>
+      <rect x="0" y="24" width="118.9" height="10" class="bar-med"/>
     </g>
     <g transform="translate(0, 104)">
       <text x="0" y="15" class="stat-label">Hard Solved</text>
       <text x="320" y="15" class="stat-val" fill="#F87171" text-anchor="end">45</text>
       <rect x="0" y="24" width="320" height="10" class="bar-bg"/>
-      <rect x="0" y="24" width="18.3" height="10" class="bar-hard"/>
+      <rect x="0" y="24" width="18.2" height="10" class="bar-hard"/>
     </g>
   </g>
 
@@ -162,7 +162,7 @@
       <rect width="144" height="52" class="platform-card"/>
       <circle cx="18" cy="26" r="6" fill="#FFA116"/>
       <text x="32" y="23" class="platform-name">LeetCode</text>
-      <text x="32" y="42" class="platform-num">275 Solved</text>
+      <text x="32" y="42" class="platform-num">277 Solved</text>
     </g>
     <g transform="translate(157, 0)">
       <rect width="144" height="52" class="platform-card"/>
@@ -180,7 +180,7 @@
       <rect width="144" height="52" class="platform-card"/>
       <circle cx="18" cy="26" r="6" fill="#1F8ACB"/>
       <text x="32" y="23" class="platform-name">Codeforces</text>
-      <text x="32" y="42" class="platform-num">116 Solved</text>
+      <text x="32" y="42" class="platform-num">117 Solved</text>
     </g>
   </g>
 </svg>
