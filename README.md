@@ -131,5 +131,5 @@ status: 🟢 Open to collaborations & contributing to open source
 </p>
 
 <p align="center">
-  <i>⭐️ Designed with ❤️ by <a href="https://github.com/parthsudani-7">Parth Sudani</a></i>
+  <i>⭐️ Designed with ❤️ by <a href="https://github.com/parthsudani-7">Parth Sudani </a></i>
 </p>
